@@ -1,0 +1,140 @@
+
+
+/*body {
+background: url('Photos/1-2379.jpg');
+min-height: 100%;
+min-width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+} */
+
+.background-image1 {
+background: url('Photos/1-2379.jpg');
+min-height: 100%;
+min-width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+/* Header */
+
+	.header {
+	margin-top: 5%;
+	height: 100px;
+	margin-bottom: 2em;
+}
+.header h1 {
+	font-size: 40px;
+	font-style: bold;
+	letter-spacing: 2px;
+	color: rgb(80, 80, 80);
+	/*color: rgb(215, 225, 212);*/
+	margin: auto;
+	text-align: center;
+	padding-top: .02em;
+	padding-bottom: .02em;
+	font-family: "Arial Black", 'Gadget', sans-serif;
+}
+
+/* Menu */
+
+.menu {
+	margin: auto;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.menu .row .col-md-4 {
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+
+.menu button:hover {
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	color: rgb(100, 100, 100);
+}
+
+.menu .dropbtn {
+	letter-spacing: 2px;
+	color: rgb(80, 80, 80);
+	width: 300px;
+	background-color: transparent;
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	letter-spacing: 2px;
+	color: rgb(80, 80, 80);
+	width: 300px;
+	background-color: #f1f1f1;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: rgb(80, 80, 80);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: rgb(225, 225, 225);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+/* Audio */
+
+.soundcloud p {
+	margin-top: 14%;
+}
+
+.soundcloud {
+	padding-top: 4em;
+	padding-bottom: 8%;
+	font-family: "Arial Black", 'Gadget', sans-serif;
+	color: rgb(80, 80, 80);
+	margin: auto;
+	display: inline;
+	text-align: center;
+
+}
+
+.footer {
+	background-color: rgb(80, 80, 80);
+	width: 100%;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: rgb(10, 10, 10);
+	margin: auto;
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 500px)
